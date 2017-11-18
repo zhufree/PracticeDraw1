@@ -2,11 +2,13 @@ package com.hencoder.hencoderpracticedraw1.practice;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 
 public class Practice9DrawPathView extends View {
+    Paint mPaint = new Paint();
 
     public Practice9DrawPathView(Context context) {
         super(context);
